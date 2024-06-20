@@ -1,0 +1,76 @@
+body{
+    background-color: tan;
+    text-decoration-color: darkolivegreen;
+    font-size: larger;
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+h2 {
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+p {
+    font-size: larger;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+.wrapper1 {
+    height: 400px;
+    position: relative;
+    border: 5px slategray;
+}
+
+
+
+.wrapper2 {
+    height: 120px;
+    position: relative;
+    border: 5px slategray;
+}
+
+.input {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+}
+
+.info-text {
+    font-size: 50px;
+    font-style: oblique;
+    color: red;
+}
+
+#myUserForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#userInput{
+    width: 450px;
+    height: 50px;
+    position: top;
+    text-align: center;
+}
+
+#palindrome {
+    height: 125px;
+    position: relative;
+    justify-content: center;
+}
+
+#meetNgreet {
+   height: 225px;
+   position: relative;
+   justify-content: center;
+}
